@@ -1,0 +1,64 @@
+#BorderPane{
+	-fx-background-color: linear-gradient(#61a2b1, #2A5058);
+}
+.button {
+	-fx-background-radius: 5.0em;
+	-fx-min-width: 80.0px; 
+    -fx-min-height:80.0px;
+	-fx-max-width: 80.0px; 
+   	-fx-max-height: 80.0px;
+   	-fx-background-color: rgba(255,0,0,0);
+   	-fx-text-fill: #fff;
+   	-fx-font-size: 16.0pt;
+   	-fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 0,0,0,1 );
+
+}
+
+.button:hover {
+    -fx-background-color: #61a2b1;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 0,0,0,1 );
+}
+
+.button:pressed {
+  -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+  -fx-text-fill: #fff;
+  -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 0,0,0,1 );
+}
+
+#buttonStyle3{
+	-fx-font-size: 8.0pt;
+	-fx-background-radius: 2.0em;
+	-fx-min-width: 80.0px; 
+    -fx-min-height:40.0px;
+	-fx-max-width: 40.0px; 
+   	-fx-max-height: 40.0px;
+	-fx-background-color: white;
+ 	-fx-text-fill: black;
+ 	-fx-effect: dropshadow( gaussian , rgba(0,0,0,0) , 0,0,0,1 );
+ 	
+	
+}
+
+#buttonStyle3:hover{
+	-fx-background-color: #61a2b1;
+	-fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 0,0,0,1 );
+  	-fx-text-fill: white;
+	
+}
+#buttonStyle3:pressed{
+	
+	-fx-background-color: linear-gradient(#2A5058, #61a2b1);
+  	-fx-text-fill: white , dropshadow( gaussian , rgba(255,0,0,0) , 0,0,0,1 );
+	
+}
+
+.text-field {
+	-fx-alignment: center_right;
+	-fx-opacity: 1.0;
+	-fx-background-radius: 0.0em;
+    -fx-background-color:  white;
+    -fx-background-insets: 0.0, 0.0;
+    -fx-font-size: 15.0pt;
+
+}
+
